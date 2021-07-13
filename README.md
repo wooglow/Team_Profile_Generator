@@ -28,7 +28,7 @@
 ## Usage: 
     - Please type "node index" on your terminal and answers the following questions for your team profile
 
-![usagevideo](./utils/team-profile-generator-trial-video.gif)    
+![usagevideo](./src/team-profile-generator-trial-video.gif)    
 
 
 ## Test:  
