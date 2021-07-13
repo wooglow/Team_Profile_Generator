@@ -22,13 +22,17 @@
 - This app helps you get a team profile in one sight
 
 ## Install:
-    - 1. open internal terminal of index.js 2. type "npm init -y", "npm i inquerier"
+    - 1. open internal terminal of index.js 
+    - 2. type "npm init -y", "npm i inquerier"
 
 ## Usage: 
     - Please type "node index" on your terminal and answers the following questions for your team profile
 
+![usagevideo](./utils/team-profile-generator-trial-video.gif)    
+
+
 ## Test:  
-- type "npm i jest", then "npm run test" 
+    - Install required module by typing "npm i jest", then you can test by typing "npm run test" 
 
 ## Contributor:  
 - Daeyoung Bae 
