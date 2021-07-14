@@ -22,7 +22,7 @@ function addMember () {
         {
         type: 'input',
         message: 'Put your ID',
-        name: 'userId',
+        name: 'id',
         },
         {
         type: 'input',
@@ -117,8 +117,8 @@ function addHTML(member) {
             <h5 class="card-header">${name}<br /><br />Engineer</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
-                <li class="list-group-item">GitHub: ${gitHub}</li>
+                <li class="list-group-item">Email Address: <a href="mailto:${email}">${email}</a></li>
+                <li class="list-group-item">GitHub: <a href="https://github.com/${gitHub}">${gitHub}</a></li>
             </ul>
             </div>
         </div>`;
@@ -129,7 +129,7 @@ function addHTML(member) {
             <h5 class="card-header">${name}<br /><br />Intern</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item">Email Address: <a href="mailto:${email}">${email}</a></li>
                 <li class="list-group-item">School: ${schoolName}</li>
             </ul>
             </div>
@@ -141,7 +141,7 @@ function addHTML(member) {
             <h5 class="card-header">${name}<br /><br />Manager</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item">Email Address: <a href="mailto:${email}">${email}</a></li>
                 <li class="list-group-item">Office Number: ${officeNumber}</li>
             </ul>
             </div>
